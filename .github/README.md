@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-docdb-elastic`](https://www.npmjs.com/package/@aws-sdk/client-docdb-elastic/v/3.621.0).
+[`@aws-sdk/client-docdb-elastic`](https://www.npmjs.com/package/@aws-sdk/client-docdb-elastic/v/3.622.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.621.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.622.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-j5rvMJ660LARK3ahICmPk7RQxAXJtD5Yoa1B5EfXMWpEZS6JwcCZAUP3AXYir86j
+sha384-XqLuCUa80IxKFDIaBm94MoI227ls0F5oCAS6jTgTre47dmt1vy5H4clAQ+1UpzLU
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-docdb-elastic": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.621.0/index.min.mjs"
+            "@aws-sdk/client-docdb-elastic": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.622.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.621.0/index.min.mjs": "sha384-j5rvMJ660LARK3ahICmPk7RQxAXJtD5Yoa1B5EfXMWpEZS6JwcCZAUP3AXYir86j"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.622.0/index.min.mjs": "sha384-XqLuCUa80IxKFDIaBm94MoI227ls0F5oCAS6jTgTre47dmt1vy5H4clAQ+1UpzLU"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-docdb-elastic": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.621.0/index.min.mjs"
+                        "@aws-sdk/client-docdb-elastic": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.622.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.621.0/index.min.mjs": "sha384-j5rvMJ660LARK3ahICmPk7RQxAXJtD5Yoa1B5EfXMWpEZS6JwcCZAUP3AXYir86j"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-docdb-elastic@3.622.0/index.min.mjs": "sha384-XqLuCUa80IxKFDIaBm94MoI227ls0F5oCAS6jTgTre47dmt1vy5H4clAQ+1UpzLU"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.621.0`)
+* Always pin to a specific version (`@3.622.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-docdb-elastic/blob/refs/tags/3.621.0/LICENSE
+https://github.com/cloud-sdk-builds/client-docdb-elastic/blob/refs/tags/3.622.0/LICENSE
 ```
 
 ---
